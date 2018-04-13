@@ -1,0 +1,854 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back1"
+
+    android:paddingLeft="9dp"
+    android:paddingBottom="9dp"
+    android:paddingTop="9dp"
+    android:paddingRight="9dp"
+    tools:context="com.example.nikita.seawind.soup">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="200dp"
+               android:src="@drawable/kashmiri_pulav"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+               <ImageView
+                   android:layout_width="30dp"
+                   android:layout_height="match_parent"
+                   android:layout_margin="5dp"
+                   android:layout_weight="1"
+                   android:src="@drawable/biryani"/>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.75"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tn71"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="SeaWind Special Biryani" />
+                    <TextView
+                        android:id="@+id/tp71"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Rs. 150"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="33dp"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1.89">
+
+
+                    <Button
+                        android:id="@+id/binc71"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="0.02"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="+"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="0.43"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/o1"
+                            android:layout_width="40dp"
+                            android:layout_height="70dp"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="15dp"
+                            android:text="0"/>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/bdec71"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="-"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <ImageView
+                   android:layout_width="30dp"
+                   android:layout_height="match_parent"
+                   android:layout_margin="5dp"
+                   android:layout_weight="1"
+                   android:src="@drawable/ghee_rice"/>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.80"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tn72"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Veg Biryani" />
+                    <TextView
+                        android:id="@+id/tp72"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Rs. 130"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="33dp"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1.96">
+
+
+                    <Button
+                        android:id="@+id/binc72"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="0.02"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="+"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="0.43"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/o2"
+                            android:layout_width="40dp"
+                            android:layout_height="70dp"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="15dp"
+                            android:text="0"/>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/bdec72"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="-"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                 <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/hyderabadi_biryani"/>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.92"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tn73"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Hydrabadi Biryani" />
+                    <TextView
+                        android:id="@+id/tp73"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="RS. 140"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="33dp"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1.89">
+
+
+                    <Button
+                        android:id="@+id/binc73"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="0.02"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="+"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="0.43"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/o3"
+                            android:layout_width="40dp"
+                            android:layout_height="70dp"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="15dp"
+                            android:text="0"/>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/bdec73"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="-"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <ImageView
+                   android:layout_width="30dp"
+                   android:layout_height="match_parent"
+                   android:layout_margin="5dp"
+                   android:layout_weight="1"
+                   android:src="@drawable/kashmiri_pulav"/>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.00"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tn74"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Kashmiri Pulav" />
+                    <TextView
+                        android:id="@+id/tp74"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Rs. 150"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="33dp"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1.89">
+
+
+                    <Button
+                        android:id="@+id/binc74"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="0.02"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="+"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="0.43"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/o4"
+                            android:layout_width="40dp"
+                            android:layout_height="70dp"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="15dp"
+                            android:text="0"/>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/bdec74"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="-"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+               <ImageView
+                   android:layout_width="30dp"
+                   android:layout_height="match_parent"
+                   android:layout_margin="5dp"
+                   android:layout_weight="1"
+                   android:src="@drawable/curd_rice"/>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.96"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tn75"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Curd Rice" />
+                    <TextView
+                        android:id="@+id/tp75"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Rs. 100"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="33dp"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1.89">
+
+
+                    <Button
+                        android:id="@+id/binc75"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="0.02"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="+"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="0.43"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/o5"
+                            android:layout_width="40dp"
+                            android:layout_height="70dp"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="15dp"
+                            android:text="0"/>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/bdec75"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="-"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/veg_pulav"/>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.92"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tn76"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Veg Pulav" />
+                    <TextView
+                        android:id="@+id/tp66"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Rs. 110"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="33dp"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1.89">
+
+
+                    <Button
+                        android:id="@+id/binc76"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="0.02"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="+"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="0.43"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/o6"
+                            android:layout_width="40dp"
+                            android:layout_height="70dp"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="15dp"
+                            android:text="0"/>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/bdec76"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="-"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/dal_khichdi"/>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.92"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tn77"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Daal Khichdi" />
+                    <TextView
+                        android:id="@+id/tp77"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Rs. 120"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="33dp"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1.89">
+
+
+                    <Button
+                        android:id="@+id/binc77"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="0.02"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="+"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="0.43"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/o7"
+                            android:layout_width="40dp"
+                            android:layout_height="70dp"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="15dp"
+                            android:text="0"/>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/bdec77"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="-"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                -<ImageView
+                   android:layout_width="30dp"
+                   android:layout_height="match_parent"
+                   android:layout_margin="5dp"
+                   android:layout_weight="1"
+                   android:src="@drawable/ghee_rice"/>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.01"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tn78"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Jeera Rice" />
+                    <TextView
+                        android:id="@+id/tp78"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Rs. 75"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="33dp"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1.89">
+
+
+                    <Button
+                        android:id="@+id/binc78"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="0.02"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="+"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="0.43"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/o8"
+                            android:layout_width="40dp"
+                            android:layout_height="70dp"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="15dp"
+                            android:text="0"/>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/bdec78"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="-"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <ImageView
+                   android:layout_width="30dp"
+                   android:layout_height="match_parent"
+                   android:layout_margin="5dp"
+                   android:layout_weight="1"
+                   android:src="@drawable/curd_rice"/>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.07"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tn79"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Plain Rice" />
+                    <TextView
+                        android:id="@+id/tp79"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Rs. 65"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="33dp"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1.89">
+
+
+                    <Button
+                        android:id="@+id/binc79"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="0.02"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="+"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="0.43"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/o9"
+                            android:layout_width="40dp"
+                            android:layout_height="70dp"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="15dp"
+                            android:text="0"/>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/bdec79"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="-"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

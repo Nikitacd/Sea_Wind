@@ -1,0 +1,950 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back1"
+    android:paddingLeft="9dp"
+    android:paddingBottom="9dp"
+    android:paddingTop="9dp"
+    android:paddingRight="9dp"
+    tools:context="com.example.nikita.seawind.soup">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="200dp"
+               android:src="@drawable/south_indian"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <ImageView
+                   android:layout_width="30dp"
+                   android:layout_height="match_parent"
+                   android:layout_margin="5dp"
+                   android:layout_weight="1"
+                   android:src="@drawable/idlisambar1"/>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.75"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tn31"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Idali Sambar" />
+                    <TextView
+                        android:id="@+id/tp31"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Rs. 40"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="33dp"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1.89">
+
+
+                    <Button
+                        android:id="@+id/binc31"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="0.02"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="+"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="0.43"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/i1"
+                            android:layout_width="40dp"
+                            android:layout_height="70dp"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="15dp"
+                            android:text="0"/>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/bdec31"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="-"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <ImageView
+                   android:layout_width="30dp"
+                   android:layout_height="match_parent"
+                   android:layout_margin="5dp"
+                   android:layout_weight="1"
+                   android:src="@drawable/sweet_corn_soup_2"/>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.80"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tn32"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Medu Wada" />
+                    <TextView
+                        android:id="@+id/tp32"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Rs. 40"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="33dp"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1.96">
+
+
+                    <Button
+                        android:id="@+id/binc32"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="0.02"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="+"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="0.43"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/i2"
+                            android:layout_width="40dp"
+                            android:layout_height="70dp"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="15dp"
+                            android:text="0"/>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/bdec32"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="-"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/hot_and_sour_soup1"/>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.92"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tn33"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Idali Wada" />
+                    <TextView
+                        android:id="@+id/tp33"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="RS. 50"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="33dp"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1.89">
+
+
+                    <Button
+                        android:id="@+id/binc33"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="0.02"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="+"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="0.43"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/i3"
+                            android:layout_width="40dp"
+                            android:layout_height="70dp"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="15dp"
+                            android:text="0"/>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/bdec33"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="-"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <ImageView
+                   android:layout_width="30dp"
+                   android:layout_height="match_parent"
+                   android:layout_margin="5dp"
+                   android:layout_weight="1"
+                   android:src="@drawable/manchowsoup"/>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.00"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tn34"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Plain Dosa" />
+                    <TextView
+                        android:id="@+id/tp34"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Rs. 40"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="33dp"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1.89">
+
+
+                    <Button
+                        android:id="@+id/binc34"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="0.02"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="+"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="0.43"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/i4"
+                            android:layout_width="40dp"
+                            android:layout_height="70dp"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="15dp"
+                            android:text="0"/>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/bdec34"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="-"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+               <ImageView
+                   android:layout_width="30dp"
+                   android:layout_height="match_parent"
+                   android:layout_margin="5dp"
+                   android:layout_weight="1"
+                   android:src="@drawable/noodlesoup"/>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.96"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tn35"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Masala Dosa" />
+                    <TextView
+                        android:id="@+id/tp35"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Rs. 50"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="33dp"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1.89">
+
+
+                    <Button
+                        android:id="@+id/binc35"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="0.02"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="+"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="0.43"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/i5"
+                            android:layout_width="40dp"
+                            android:layout_height="70dp"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="15dp"
+                            android:text="0"/>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/bdec35"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="-"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+             <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/clearsoup"/>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.92"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tn36"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Masala Uttappam" />
+                    <TextView
+                        android:id="@+id/tp36"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Rs. 50"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="33dp"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1.89">
+
+
+                    <Button
+                        android:id="@+id/binc36"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="0.02"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="+"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="0.43"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/i6"
+                            android:layout_width="40dp"
+                            android:layout_height="70dp"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="15dp"
+                            android:text="0"/>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/bdec36"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="-"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <ImageView
+                   android:layout_width="30dp"
+                   android:layout_height="match_parent"
+                   android:layout_margin="5dp"
+                   android:layout_weight="1"
+                   android:src="@drawable/cream_of_palak"/>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.92"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tn37"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Tomato Uttappam" />
+                    <TextView
+                        android:id="@+id/tp37"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Rs. 50"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="33dp"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1.89">
+
+
+                    <Button
+                        android:id="@+id/binc37"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="0.02"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="+"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="0.43"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/i7"
+                            android:layout_width="40dp"
+                            android:layout_height="70dp"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="15dp"
+                            android:text="0"/>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/bdec37"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="-"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <ImageView
+                   android:layout_width="30dp"
+                   android:layout_height="match_parent"
+                   android:layout_margin="5dp"
+                   android:layout_weight="1"
+                   android:src="@drawable/creameofmushroom"/>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.01"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tn38"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Paper Sadha Dosa" />
+                    <TextView
+                        android:id="@+id/tp38"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Rs. 70"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="33dp"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1.89">
+
+
+                    <Button
+                        android:id="@+id/binc38"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="0.02"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="+"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="0.43"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/i8"
+                            android:layout_width="40dp"
+                            android:layout_height="70dp"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="15dp"
+                            android:text="0"/>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/bdec38"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="-"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+              <ImageView
+                   android:layout_width="30dp"
+                   android:layout_height="match_parent"
+                   android:layout_margin="5dp"
+                   android:layout_weight="1"
+                   android:src="@drawable/cream_of_veg_soup"/>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.07"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tn39"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Paper Masala Dosa" />
+                    <TextView
+                        android:id="@+id/tp39"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Rs. 90"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="33dp"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1.89">
+
+
+                    <Button
+                        android:id="@+id/binc39"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="0.02"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="+"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="0.43"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/i9"
+                            android:layout_width="40dp"
+                            android:layout_height="70dp"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="15dp"
+                            android:text="0"/>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/bdec39"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="-"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <ImageView
+                   android:layout_width="30dp"
+                   android:layout_height="match_parent"
+                   android:layout_margin="5dp"
+                   android:layout_weight="1"
+                   android:src="@drawable/cream_of_veg_soup"/>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.07"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tn310"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Cream Of Veg Soup" />
+                    <TextView
+                        android:id="@+id/tp310"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Rs. 70"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="33dp"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1.89">
+
+
+                    <Button
+                        android:id="@+id/binc310"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="0.02"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="+"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="0.43"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/i10"
+                            android:layout_width="40dp"
+                            android:layout_height="70dp"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="15dp"
+                            android:text="0"/>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/bdec310"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="-"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

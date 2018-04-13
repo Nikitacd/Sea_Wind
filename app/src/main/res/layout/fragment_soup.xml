@@ -1,0 +1,952 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back1"
+
+    android:paddingLeft="9dp"
+    android:paddingBottom="9dp"
+    android:paddingTop="9dp"
+    android:paddingRight="9dp"
+    tools:context="com.example.nikita.seawind.soup">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="200dp"
+               android:src="@drawable/soups"/>
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="70dp"
+               android:gravity="center_vertical"
+               android:orientation="horizontal"
+               android:weightSum="5">
+
+               <ImageView
+                  android:layout_width="30dp"
+                  android:layout_height="match_parent"
+                  android:layout_margin="5dp"
+                  android:layout_weight="1"
+                  android:src="@drawable/tomatosoup"/>
+
+              <LinearLayout
+                  android:layout_width="90dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1.75"
+                  android:orientation="vertical"
+                  android:weightSum="2">
+
+                  <TextView
+                      android:id="@+id/tn1"
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:paddingLeft="10dp"
+                      android:text="Tomato Soup" />
+                  <TextView
+                      android:id="@+id/tp1"
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:paddingLeft="10dp"
+                      android:text="Rs. 70"/>
+
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="33dp"
+                  android:layout_height="70dp"
+                  android:orientation="horizontal"
+                  android:layout_weight="1.89">
+
+
+                  <Button
+                      android:id="@+id/binc11"
+                      android:layout_width="35dp"
+                      android:layout_height="35dp"
+                      android:layout_weight="0.02"
+                      android:paddingBottom="2dp"
+                      android:paddingLeft="2dp"
+                      android:paddingRight="2dp"
+                      android:paddingTop="2dp"
+                      android:text="+"
+                      android:textStyle="bold" />
+
+                  <LinearLayout
+                      android:layout_width="10dp"
+                      android:layout_height="70dp"
+                      android:layout_weight="0.43"
+                      android:orientation="horizontal">
+
+                      <TextView
+                          android:id="@+id/p1"
+                          android:layout_width="40dp"
+                          android:layout_height="70dp"
+                          android:paddingLeft="15dp"
+                          android:paddingTop="15dp"
+                          android:text="0"/>
+
+                  </LinearLayout>
+
+                  <Button
+                      android:id="@+id/bdec11"
+                      android:layout_width="35dp"
+                      android:layout_height="35dp"
+
+                      android:paddingBottom="2dp"
+                      android:paddingLeft="2dp"
+                      android:paddingRight="2dp"
+                      android:paddingTop="2dp"
+                      android:text="-"
+                      android:textStyle="bold"/>
+              </LinearLayout>
+
+          </LinearLayout>
+
+
+
+
+
+
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="70dp"
+              android:gravity="center_vertical"
+              android:orientation="horizontal"
+              android:weightSum="5">
+
+              <ImageView
+                 android:layout_width="30dp"
+                 android:layout_height="match_parent"
+                 android:layout_margin="5dp"
+                 android:layout_weight="1"
+                 android:src="@drawable/sweet_corn_soup_2"/>
+
+             <LinearLayout
+                 android:layout_width="90dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1.80"
+                 android:orientation="vertical"
+                 android:weightSum="2">
+
+                 <TextView
+                     android:id="@+id/tn2"
+                     android:layout_width="match_parent"
+                     android:layout_height="0dp"
+                     android:layout_weight="1"
+                     android:paddingLeft="10dp"
+                     android:text="Sweet Corn Soup" />
+                 <TextView
+                     android:id="@+id/tp2"
+                     android:layout_width="match_parent"
+                     android:layout_height="0dp"
+                     android:layout_weight="1"
+                     android:paddingLeft="10dp"
+                     android:text="Rs. 80"/>
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_width="33dp"
+                 android:layout_height="70dp"
+                 android:orientation="horizontal"
+                 android:layout_weight="1.96">
+
+
+                 <Button
+                     android:id="@+id/binc12"
+                     android:layout_width="35dp"
+                     android:layout_height="35dp"
+                     android:layout_weight="0.02"
+                     android:paddingBottom="2dp"
+                     android:paddingLeft="2dp"
+                     android:paddingRight="2dp"
+                     android:paddingTop="2dp"
+                     android:text="+"
+                     android:textStyle="bold" />
+
+                 <LinearLayout
+                     android:layout_width="10dp"
+                     android:layout_height="70dp"
+                     android:layout_weight="0.43"
+                     android:orientation="horizontal">
+
+                     <TextView
+                         android:id="@+id/p2"
+                         android:layout_width="40dp"
+                         android:layout_height="70dp"
+                         android:paddingLeft="20dp"
+                         android:paddingTop="15dp"
+                         android:text="0"/>
+
+                 </LinearLayout>
+
+                 <Button
+                     android:id="@+id/bdec12"
+                     android:layout_width="35dp"
+                     android:layout_height="35dp"
+                     android:paddingBottom="2dp"
+                     android:paddingLeft="2dp"
+                     android:paddingRight="2dp"
+                     android:paddingTop="2dp"
+                     android:text="-"
+                     android:textStyle="bold"/>
+             </LinearLayout>
+
+         </LinearLayout>
+
+
+
+
+
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="70dp"
+             android:gravity="center_vertical"
+             android:orientation="horizontal"
+             android:weightSum="5">
+
+              <ImageView
+                 android:layout_width="30dp"
+                 android:layout_height="match_parent"
+                 android:layout_margin="5dp"
+                 android:layout_weight="1"
+                 android:src="@drawable/hot_and_sour_soup1"/>
+
+             <LinearLayout
+                 android:layout_width="90dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1.92"
+                 android:orientation="vertical"
+                 android:weightSum="2">
+
+                 <TextView
+                     android:id="@+id/tn3"
+                     android:layout_width="match_parent"
+                     android:layout_height="0dp"
+                     android:layout_weight="1"
+                     android:paddingLeft="10dp"
+                     android:text="Hot And Sour Soup" />
+                 <TextView
+                     android:id="@+id/tp3"
+                     android:layout_width="match_parent"
+                     android:layout_height="0dp"
+                     android:layout_weight="1"
+                     android:paddingLeft="10dp"
+                     android:text="RS. 75"/>
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_width="33dp"
+                 android:layout_height="70dp"
+                 android:orientation="horizontal"
+                 android:layout_weight="1.89">
+
+
+                 <Button
+                     android:id="@+id/binc13"
+                     android:layout_width="35dp"
+                     android:layout_height="35dp"
+                     android:layout_weight="0.02"
+                     android:paddingBottom="2dp"
+                     android:paddingLeft="2dp"
+                     android:paddingRight="2dp"
+                     android:paddingTop="2dp"
+                     android:text="+"
+                     android:textStyle="bold" />
+
+                 <LinearLayout
+                     android:layout_width="10dp"
+                     android:layout_height="70dp"
+                     android:layout_weight="0.43"
+                     android:orientation="horizontal">
+
+                     <TextView
+                         android:id="@+id/p3"
+                         android:layout_width="40dp"
+                         android:layout_height="70dp"
+                         android:paddingLeft="15dp"
+                         android:paddingTop="15dp"
+                         android:text="0"/>
+
+                 </LinearLayout>
+
+                 <Button
+                     android:id="@+id/bdec13"
+                     android:layout_width="35dp"
+                     android:layout_height="35dp"
+                     android:paddingBottom="2dp"
+                     android:paddingLeft="2dp"
+                     android:paddingRight="2dp"
+                     android:paddingTop="2dp"
+                     android:text="-"
+                     android:textStyle="bold"/>
+             </LinearLayout>
+
+         </LinearLayout>
+
+
+
+
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="70dp"
+             android:gravity="center_vertical"
+             android:orientation="horizontal"
+             android:weightSum="5">
+
+             <ImageView
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:src="@drawable/manchowsoup"/>
+
+             <LinearLayout
+                 android:layout_width="90dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="2.00"
+                 android:orientation="vertical"
+                 android:weightSum="2">
+
+                 <TextView
+                     android:id="@+id/tn4"
+                     android:layout_width="match_parent"
+                     android:layout_height="0dp"
+                     android:layout_weight="1"
+                     android:paddingLeft="10dp"
+                     android:text="Veg Manchow Soup" />
+                 <TextView
+                     android:id="@+id/tp4"
+                     android:layout_width="match_parent"
+                     android:layout_height="0dp"
+                     android:layout_weight="1"
+                     android:paddingLeft="10dp"
+                     android:text="Rs. 65"/>
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_width="33dp"
+                 android:layout_height="70dp"
+                 android:orientation="horizontal"
+                 android:layout_weight="1.89">
+
+
+                 <Button
+                     android:id="@+id/binc14"
+                     android:layout_width="35dp"
+                     android:layout_height="35dp"
+                     android:layout_weight="0.02"
+                     android:paddingBottom="2dp"
+                     android:paddingLeft="2dp"
+                     android:paddingRight="2dp"
+                     android:paddingTop="2dp"
+                     android:text="+"
+                     android:textStyle="bold" />
+
+                 <LinearLayout
+                     android:layout_width="10dp"
+                     android:layout_height="70dp"
+                     android:layout_weight="0.43"
+                     android:orientation="horizontal">
+
+                     <TextView
+                         android:id="@+id/p4"
+                         android:layout_width="40dp"
+                         android:layout_height="70dp"
+                         android:paddingLeft="15dp"
+                         android:paddingTop="15dp"
+                         android:text="0"/>
+
+                 </LinearLayout>
+
+                 <Button
+                     android:id="@+id/bdec14"
+                     android:layout_width="35dp"
+                     android:layout_height="35dp"
+                     android:paddingBottom="2dp"
+                     android:paddingLeft="2dp"
+                     android:paddingRight="2dp"
+                     android:paddingTop="2dp"
+                     android:text="-"
+                     android:textStyle="bold"/>
+             </LinearLayout>
+
+         </LinearLayout>
+
+
+
+
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="70dp"
+             android:gravity="center_vertical"
+             android:orientation="horizontal"
+             android:weightSum="5">
+
+             <ImageView
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:src="@drawable/noodlesoup"/>
+
+             <LinearLayout
+                 android:layout_width="90dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1.96"
+                 android:orientation="vertical"
+                 android:weightSum="2">
+
+                 <TextView
+                     android:id="@+id/tn5"
+                     android:layout_width="match_parent"
+                     android:layout_height="0dp"
+                     android:layout_weight="1"
+                     android:paddingLeft="10dp"
+                     android:text="Veg Noodles Soup" />
+                 <TextView
+                     android:id="@+id/tp5"
+                     android:layout_width="match_parent"
+                     android:layout_height="0dp"
+                     android:layout_weight="1"
+                     android:paddingLeft="10dp"
+                     android:text="Rs. 80"/>
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_width="33dp"
+                 android:layout_height="70dp"
+                 android:orientation="horizontal"
+                 android:layout_weight="1.89">
+
+
+                 <Button
+                     android:id="@+id/binc15"
+                     android:layout_width="35dp"
+                     android:layout_height="35dp"
+                     android:layout_weight="0.02"
+                     android:paddingBottom="2dp"
+                     android:paddingLeft="2dp"
+                     android:paddingRight="2dp"
+                     android:paddingTop="2dp"
+                     android:text="+"
+                     android:textStyle="bold" />
+
+                 <LinearLayout
+                     android:layout_width="10dp"
+                     android:layout_height="70dp"
+                     android:layout_weight="0.43"
+                     android:orientation="horizontal">
+
+                     <TextView
+                         android:id="@+id/p5"
+                         android:layout_width="40dp"
+                         android:layout_height="70dp"
+                         android:paddingLeft="15dp"
+                         android:paddingTop="15dp"
+                         android:text="0"/>
+
+                 </LinearLayout>
+
+                 <Button
+                     android:id="@+id/bdec15"
+                     android:layout_width="35dp"
+                     android:layout_height="35dp"
+                     android:paddingBottom="2dp"
+                     android:paddingLeft="2dp"
+                     android:paddingRight="2dp"
+                     android:paddingTop="2dp"
+                     android:text="-"
+                     android:textStyle="bold"/>
+             </LinearLayout>
+
+         </LinearLayout>
+
+
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="70dp"
+             android:gravity="center_vertical"
+             android:orientation="horizontal"
+             android:weightSum="5">
+
+              <ImageView
+                 android:layout_width="30dp"
+                 android:layout_height="match_parent"
+                 android:layout_margin="5dp"
+                 android:layout_weight="1"
+                 android:src="@drawable/clearsoup"/>
+
+             <LinearLayout
+                 android:layout_width="90dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1.92"
+                 android:orientation="vertical"
+                 android:weightSum="2">
+
+                 <TextView
+                     android:id="@+id/tn6"
+                     android:layout_width="match_parent"
+                     android:layout_height="0dp"
+                     android:layout_weight="1"
+                     android:paddingLeft="10dp"
+                     android:text="Veg Clear Soup" />
+                 <TextView
+                     android:id="@+id/tp6"
+                     android:layout_width="match_parent"
+                     android:layout_height="0dp"
+                     android:layout_weight="1"
+                     android:paddingLeft="10dp"
+                     android:text="Rs. 70"/>
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_width="33dp"
+                 android:layout_height="70dp"
+                 android:orientation="horizontal"
+                 android:layout_weight="1.89">
+
+
+                 <Button
+                     android:id="@+id/binc16"
+                     android:layout_width="35dp"
+                     android:layout_height="35dp"
+                     android:layout_weight="0.02"
+                     android:paddingBottom="2dp"
+                     android:paddingLeft="2dp"
+                     android:paddingRight="2dp"
+                     android:paddingTop="2dp"
+                     android:text="+"
+                     android:textStyle="bold" />
+
+                 <LinearLayout
+                     android:layout_width="10dp"
+                     android:layout_height="70dp"
+                     android:layout_weight="0.43"
+                     android:orientation="horizontal">
+
+                     <TextView
+                         android:id="@+id/p6"
+                         android:layout_width="40dp"
+                         android:layout_height="70dp"
+                         android:paddingLeft="15dp"
+                         android:paddingTop="15dp"
+                         android:text="0"/>
+
+                 </LinearLayout>
+
+                 <Button
+                     android:id="@+id/bdec16"
+                     android:layout_width="35dp"
+                     android:layout_height="35dp"
+                     android:paddingBottom="2dp"
+                     android:paddingLeft="2dp"
+                     android:paddingRight="2dp"
+                     android:paddingTop="2dp"
+                     android:text="-"
+                     android:textStyle="bold"/>
+             </LinearLayout>
+
+         </LinearLayout>
+
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="70dp"
+             android:gravity="center_vertical"
+             android:orientation="horizontal"
+             android:weightSum="5">
+
+             <ImageView
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:src="@drawable/cream_of_palak"/>
+
+            <LinearLayout
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.92"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/tn7"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:text="Cream Of Palak Soup" />
+                <TextView
+                    android:id="@+id/tp7"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:text="Rs. 80"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="33dp"
+                android:layout_height="70dp"
+                android:orientation="horizontal"
+                android:layout_weight="1.89">
+
+
+                <Button
+                    android:id="@+id/binc17"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="0.02"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"
+                    android:paddingTop="2dp"
+                    android:text="+"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="10dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="0.43"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/p7"
+                        android:layout_width="40dp"
+                        android:layout_height="70dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="15dp"
+                        android:text="0"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/bdec17"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"
+                    android:paddingTop="2dp"
+                    android:text="-"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <ImageView
+               android:layout_width="30dp"
+               android:layout_height="match_parent"
+               android:layout_margin="5dp"
+               android:layout_weight="1"
+               android:src="@drawable/creameofmushroom"/>
+
+           <LinearLayout
+               android:layout_width="90dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="2.01"
+               android:orientation="vertical"
+               android:weightSum="2">
+
+               <TextView
+                   android:id="@+id/tn8"
+                   android:layout_width="match_parent"
+                   android:layout_height="0dp"
+                   android:layout_weight="1"
+                   android:paddingLeft="10dp"
+                   android:text="Cream Of Mushroom Soup" />
+               <TextView
+                   android:id="@+id/tp8"
+                   android:layout_width="match_parent"
+                   android:layout_height="0dp"
+                   android:layout_weight="1"
+                   android:paddingLeft="10dp"
+                   android:text="Rs. 80"/>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="33dp"
+               android:layout_height="70dp"
+               android:orientation="horizontal"
+               android:layout_weight="1.89">
+
+
+               <Button
+                   android:id="@+id/binc18"
+                   android:layout_width="35dp"
+                   android:layout_height="35dp"
+                   android:layout_weight="0.02"
+                   android:paddingBottom="2dp"
+                   android:paddingLeft="2dp"
+                   android:paddingRight="2dp"
+                   android:paddingTop="2dp"
+                   android:text="+"
+                   android:textStyle="bold" />
+
+               <LinearLayout
+                   android:layout_width="10dp"
+                   android:layout_height="70dp"
+                   android:layout_weight="0.43"
+                   android:orientation="horizontal">
+
+                   <TextView
+                       android:id="@+id/p8"
+                       android:layout_width="40dp"
+                       android:layout_height="70dp"
+                       android:paddingLeft="15dp"
+                       android:paddingTop="15dp"
+                       android:text="0"/>
+
+               </LinearLayout>
+
+               <Button
+                   android:id="@+id/bdec18"
+                   android:layout_width="35dp"
+                   android:layout_height="35dp"
+                   android:paddingBottom="2dp"
+                   android:paddingLeft="2dp"
+                   android:paddingRight="2dp"
+                   android:paddingTop="2dp"
+                   android:text="-"
+                   android:textStyle="bold"/>
+           </LinearLayout>
+
+       </LinearLayout>
+
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="70dp"
+           android:gravity="center_vertical"
+           android:orientation="horizontal"
+           android:weightSum="5">
+
+           <ImageView
+              android:layout_width="30dp"
+              android:layout_height="match_parent"
+              android:layout_margin="5dp"
+              android:layout_weight="1"
+              android:src="@drawable/cream_of_veg_soup"/>
+
+          <LinearLayout
+              android:layout_width="90dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="2.07"
+              android:orientation="vertical"
+              android:weightSum="2">
+
+              <TextView
+                  android:id="@+id/tn9"
+                  android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="1"
+                  android:paddingLeft="10dp"
+                  android:text="Cream Of Veg Soup" />
+              <TextView
+                  android:id="@+id/tp9"
+                  android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="1"
+                  android:paddingLeft="10dp"
+                  android:text="Rs. 70"/>
+
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="33dp"
+              android:layout_height="70dp"
+              android:orientation="horizontal"
+              android:layout_weight="1.89">
+
+
+              <Button
+                  android:id="@+id/binc19"
+                  android:layout_width="35dp"
+                  android:layout_height="35dp"
+                  android:layout_weight="0.02"
+                  android:paddingBottom="2dp"
+                  android:paddingLeft="2dp"
+                  android:paddingRight="2dp"
+                  android:paddingTop="2dp"
+                  android:text="+"
+                  android:textStyle="bold" />
+
+              <LinearLayout
+                  android:layout_width="10dp"
+                  android:layout_height="70dp"
+                  android:layout_weight="0.43"
+                  android:orientation="horizontal">
+
+                  <TextView
+                      android:id="@+id/p9"
+                      android:layout_width="40dp"
+                      android:layout_height="70dp"
+                      android:paddingLeft="15dp"
+                      android:paddingTop="15dp"
+                      android:text="0"/>
+
+              </LinearLayout>
+
+              <Button
+                  android:id="@+id/bdec19"
+                  android:layout_width="35dp"
+                  android:layout_height="35dp"
+                  android:paddingBottom="2dp"
+                  android:paddingLeft="2dp"
+                  android:paddingRight="2dp"
+                  android:paddingTop="2dp"
+                  android:text="-"
+                  android:textStyle="bold"/>
+          </LinearLayout>
+
+      </LinearLayout>
+
+
+
+
+
+
+
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="70dp"
+          android:gravity="center_vertical"
+          android:orientation="horizontal"
+          android:weightSum="5">
+
+          <ImageView
+             android:layout_width="30dp"
+             android:layout_height="match_parent"
+             android:layout_margin="5dp"
+             android:layout_weight="1"
+             android:src="@drawable/minestrone_soup"/>
+
+         <LinearLayout
+             android:layout_width="90dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="2.11"
+             android:orientation="vertical"
+             android:weightSum="2">
+
+             <TextView
+                 android:id="@+id/tn10"
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="1"
+                 android:paddingLeft="10dp"
+                 android:text="Minestrone Soup" />
+             <TextView
+                 android:id="@+id/tp10"
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="1"
+                 android:paddingLeft="10dp"
+                 android:text="Rs. 75"/>
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="33dp"
+             android:layout_height="70dp"
+             android:orientation="horizontal"
+             android:layout_weight="1.89">
+
+
+             <Button
+                 android:id="@+id/binc110"
+                 android:layout_width="35dp"
+                 android:layout_height="35dp"
+                 android:layout_weight="0.02"
+                 android:paddingBottom="2dp"
+                 android:paddingLeft="2dp"
+                 android:paddingRight="2dp"
+                 android:paddingTop="2dp"
+                 android:text="+"
+                 android:textStyle="bold" />
+
+             <LinearLayout
+                 android:layout_width="10dp"
+                 android:layout_height="70dp"
+                 android:layout_weight="0.43"
+                 android:orientation="horizontal">
+
+                 <TextView
+                     android:id="@+id/p10"
+                     android:layout_width="40dp"
+                     android:layout_height="70dp"
+                     android:paddingLeft="15dp"
+                     android:paddingTop="15dp"
+                     android:text="0"/>
+
+             </LinearLayout>
+
+
+             <Button
+                 android:id="@+id/bdec110"
+                 android:layout_width="35dp"
+                 android:layout_height="35dp"
+                 android:paddingBottom="2dp"
+                 android:paddingLeft="2dp"
+                 android:paddingRight="2dp"
+                 android:paddingTop="2dp"
+                 android:text="-"
+                 android:textStyle="bold"/>
+         </LinearLayout>
+
+     </LinearLayout>
+
+
+
+ </LinearLayout>
+
+</ScrollView>
+
+</FrameLayout>

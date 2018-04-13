@@ -1,0 +1,944 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="9dp"
+    android:background="@drawable/back1"
+    android:paddingLeft="9dp"
+    android:paddingRight="9dp"
+    android:paddingBottom="9dp"
+    tools:context="com.example.nikita.seawind.manchurian">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/veg_manchurian"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/veg_manchurian"/>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.96"
+                    android:orientation="vertical"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tn11"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Veg Manchurian" />
+                    <TextView
+                        android:id="@+id/tp11"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Rs. 100"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="33dp"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal"
+                    android:layout_weight="1.89">
+
+
+                    <Button
+                        android:id="@+id/binc21"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="0.02"
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="+"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="0.43"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/s1"
+                            android:layout_width="40dp"
+                            android:layout_height="70dp"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="15dp"
+                            android:text="0"/>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/bdec21"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+
+                        android:paddingBottom="2dp"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingTop="2dp"
+                        android:text="-"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+               <ImageView
+                   android:layout_width="30dp"
+                   android:layout_height="match_parent"
+                   android:layout_margin="5dp"
+                   android:layout_weight="1"
+                   android:src="@drawable/gobi_manchurian"/>
+
+               <LinearLayout
+                   android:layout_width="90dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1.90"
+                   android:orientation="vertical"
+                   android:weightSum="2">
+
+                   <TextView
+                       android:id="@+id/tn12"
+                       android:layout_width="match_parent"
+                       android:layout_height="0dp"
+                       android:layout_weight="1"
+                       android:paddingLeft="10dp"
+                       android:text="Gobhi Manchurian" />
+                   <TextView
+                       android:id="@+id/tp12"
+                       android:layout_width="match_parent"
+                       android:layout_height="0dp"
+                       android:layout_weight="1"
+                       android:paddingLeft="10dp"
+                       android:text="Rs. 90"/>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="33dp"
+                   android:layout_height="70dp"
+                   android:orientation="horizontal"
+                   android:layout_weight="1.89">
+
+
+                   <Button
+                       android:id="@+id/binc22"
+                       android:layout_width="35dp"
+                       android:layout_height="35dp"
+                       android:layout_weight="0.02"
+                       android:paddingBottom="2dp"
+                       android:paddingLeft="2dp"
+                       android:paddingRight="2dp"
+                       android:paddingTop="2dp"
+                       android:text="+"
+                       android:textStyle="bold" />
+
+                   <LinearLayout
+                       android:layout_width="10dp"
+                       android:layout_height="70dp"
+                       android:layout_weight="0.43"
+                       android:orientation="horizontal">
+
+                       <TextView
+                           android:id="@+id/s2"
+                           android:layout_width="40dp"
+                           android:layout_height="70dp"
+                           android:paddingLeft="20dp"
+                           android:paddingTop="15dp"
+                           android:text="0"/>
+
+                   </LinearLayout>
+
+                   <Button
+                       android:id="@+id/bdec22"
+                       android:layout_width="35dp"
+                       android:layout_height="35dp"
+                       android:paddingBottom="2dp"
+                       android:paddingLeft="2dp"
+                       android:paddingRight="2dp"
+                       android:paddingTop="2dp"
+                       android:text="-"
+                       android:textStyle="bold"/>
+               </LinearLayout>
+
+           </LinearLayout>
+
+
+
+
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="70dp"
+               android:gravity="center_vertical"
+               android:orientation="horizontal"
+               android:weightSum="5">
+
+              <ImageView
+                  android:layout_width="30dp"
+                  android:layout_height="match_parent"
+                  android:layout_margin="5dp"
+                  android:layout_weight="1"
+                  android:src="@drawable/paneer_manchurian"/>
+
+               <LinearLayout
+                   android:layout_width="90dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1.88"
+                   android:orientation="vertical"
+                   android:weightSum="2">
+
+                   <TextView
+                       android:id="@+id/tn13"
+                       android:layout_width="match_parent"
+                       android:layout_height="0dp"
+                       android:layout_weight="1"
+                       android:paddingLeft="10dp"
+                       android:text="Paneer Manchurian" />
+                   <TextView
+                       android:id="@+id/tp13"
+                       android:layout_width="match_parent"
+                       android:layout_height="0dp"
+                       android:layout_weight="1"
+                       android:paddingLeft="10dp"
+                       android:text="RS. 140"/>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="33dp"
+                   android:layout_height="70dp"
+                   android:orientation="horizontal"
+                   android:layout_weight="1.89">
+
+
+                   <Button
+                       android:id="@+id/binc23"
+                       android:layout_width="35dp"
+                       android:layout_height="35dp"
+                       android:layout_weight="0.02"
+                       android:paddingBottom="2dp"
+                       android:paddingLeft="2dp"
+                       android:paddingRight="2dp"
+                       android:paddingTop="2dp"
+                       android:text="+"
+                       android:textStyle="bold" />
+
+                   <LinearLayout
+                       android:layout_width="10dp"
+                       android:layout_height="70dp"
+                       android:layout_weight="0.43"
+                       android:orientation="horizontal">
+
+                       <TextView
+                           android:id="@+id/s3"
+                           android:layout_width="40dp"
+                           android:layout_height="70dp"
+                           android:paddingLeft="15dp"
+                           android:paddingTop="15dp"
+                           android:text="0"/>
+
+                   </LinearLayout>
+
+                   <Button
+                       android:id="@+id/bdec23"
+                       android:layout_width="35dp"
+                       android:layout_height="35dp"
+                       android:paddingBottom="2dp"
+                       android:paddingLeft="2dp"
+                       android:paddingRight="2dp"
+                       android:paddingTop="2dp"
+                       android:text="-"
+                       android:textStyle="bold"/>
+               </LinearLayout>
+
+           </LinearLayout>
+
+
+
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="70dp"
+               android:gravity="center_vertical"
+               android:orientation="horizontal"
+               android:weightSum="5">
+
+               <ImageView
+                  android:layout_width="30dp"
+                  android:layout_height="match_parent"
+                  android:layout_margin="5dp"
+                  android:layout_weight="1"
+                  android:src="@drawable/mushroom_manchurian"/>
+
+              <LinearLayout
+                  android:layout_width="90dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="2.00"
+                  android:orientation="vertical"
+                  android:weightSum="2">
+
+                  <TextView
+                      android:id="@+id/tn14"
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:paddingLeft="10dp"
+                      android:text="Mushroom manchurian" />
+                  <TextView
+                      android:id="@+id/tp14"
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:paddingLeft="10dp"
+                      android:text="Rs. 130"/>
+
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="33dp"
+                  android:layout_height="70dp"
+                  android:orientation="horizontal"
+                  android:layout_weight="1.89">
+
+
+                  <Button
+                      android:id="@+id/binc24"
+                      android:layout_width="35dp"
+                      android:layout_height="35dp"
+                      android:layout_weight="0.02"
+                      android:paddingBottom="2dp"
+                      android:paddingLeft="2dp"
+                      android:paddingRight="2dp"
+                      android:paddingTop="2dp"
+                      android:text="+"
+                      android:textStyle="bold" />
+
+                  <LinearLayout
+                      android:layout_width="10dp"
+                      android:layout_height="70dp"
+                      android:layout_weight="0.43"
+                      android:orientation="horizontal">
+
+                      <TextView
+                          android:id="@+id/s4"
+                          android:layout_width="40dp"
+                          android:layout_height="70dp"
+                          android:paddingLeft="15dp"
+                          android:paddingTop="15dp"
+                          android:text="0"/>
+
+                  </LinearLayout>
+
+                  <Button
+                      android:id="@+id/bdec24"
+                      android:layout_width="35dp"
+                      android:layout_height="35dp"
+                      android:paddingBottom="2dp"
+                      android:paddingLeft="2dp"
+                      android:paddingRight="2dp"
+                      android:paddingTop="2dp"
+                      android:text="-"
+                      android:textStyle="bold"/>
+              </LinearLayout>
+
+          </LinearLayout>
+
+
+
+
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="70dp"
+              android:gravity="center_vertical"
+              android:orientation="horizontal"
+              android:weightSum="5">
+
+              <ImageView
+                 android:layout_width="30dp"
+                 android:layout_height="match_parent"
+                 android:layout_margin="5dp"
+                 android:layout_weight="1"
+                 android:src="@drawable/baby_corn_manchurian"/>
+
+             <LinearLayout
+                 android:layout_width="90dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1.96"
+                 android:orientation="vertical"
+                 android:weightSum="2">
+
+                 <TextView
+                     android:id="@+id/tn15"
+                     android:layout_width="match_parent"
+                     android:layout_height="0dp"
+                     android:layout_weight="1"
+                     android:paddingLeft="10dp"
+                     android:text="Baby-Corn Chilly" />
+                 <TextView
+                     android:id="@+id/tp15"
+                     android:layout_width="match_parent"
+                     android:layout_height="0dp"
+                     android:layout_weight="1"
+                     android:paddingLeft="10dp"
+                     android:text="Rs. 130"/>
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_width="33dp"
+                 android:layout_height="70dp"
+                 android:orientation="horizontal"
+                 android:layout_weight="1.89">
+
+
+                 <Button
+                     android:id="@+id/binc25"
+                     android:layout_width="35dp"
+                     android:layout_height="35dp"
+                     android:layout_weight="0.02"
+                     android:paddingBottom="2dp"
+                     android:paddingLeft="2dp"
+                     android:paddingRight="2dp"
+                     android:paddingTop="2dp"
+                     android:text="+"
+                     android:textStyle="bold" />
+
+                 <LinearLayout
+                     android:layout_width="10dp"
+                     android:layout_height="70dp"
+                     android:layout_weight="0.43"
+                     android:orientation="horizontal">
+
+                     <TextView
+                         android:id="@+id/s5"
+                         android:layout_width="40dp"
+                         android:layout_height="70dp"
+                         android:paddingLeft="15dp"
+                         android:paddingTop="15dp"
+                         android:text="0"/>
+
+                 </LinearLayout>
+
+                 <Button
+                     android:id="@+id/bdec25"
+                     android:layout_width="35dp"
+                     android:layout_height="35dp"
+                     android:paddingBottom="2dp"
+                     android:paddingLeft="2dp"
+                     android:paddingRight="2dp"
+                     android:paddingTop="2dp"
+                     android:text="-"
+                     android:textStyle="bold"/>
+             </LinearLayout>
+
+         </LinearLayout>
+
+
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="70dp"
+             android:gravity="center_vertical"
+             android:orientation="horizontal"
+             android:weightSum="5">
+
+             <ImageView
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:src="@drawable/gobi_manchurian"/>
+
+            <LinearLayout
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.92"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/tn16"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:text="Lemon Gobhi Manchurian" />
+                <TextView
+                    android:id="@+id/tp16"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:text="Rs. 95"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="33dp"
+                android:layout_height="70dp"
+                android:orientation="horizontal"
+                android:layout_weight="1.89">
+
+
+                <Button
+                    android:id="@+id/binc26"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="0.02"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"
+                    android:paddingTop="2dp"
+                    android:text="+"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="10dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="0.43"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/s6"
+                        android:layout_width="40dp"
+                        android:layout_height="70dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="15dp"
+                        android:text="0"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/bdec26"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"
+                    android:paddingTop="2dp"
+                    android:text="-"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:weightSum="5">
+
+           <ImageView
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:src="@drawable/veg_manchurian"/>
+
+            <LinearLayout
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/tn17"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:text="Veg-65" />
+                <TextView
+                    android:id="@+id/tp17"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:text="Rs. 90"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="33dp"
+                android:layout_height="70dp"
+                android:orientation="horizontal"
+                android:layout_weight="1.89">
+
+
+                <Button
+                    android:id="@+id/binc27"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="0.02"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"
+                    android:paddingTop="2dp"
+                    android:text="+"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="10dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="0.43"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/s7"
+                        android:layout_width="40dp"
+                        android:layout_height="70dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="15dp"
+                        android:text="0"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/bdec27"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"
+                    android:paddingTop="2dp"
+                    android:text="-"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <ImageView
+               android:layout_width="30dp"
+               android:layout_height="match_parent"
+               android:layout_margin="5dp"
+               android:layout_weight="1"
+               android:src="@drawable/paneer_manchurian"/>
+
+           <LinearLayout
+               android:layout_width="90dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="2.01"
+               android:orientation="vertical"
+               android:weightSum="2">
+
+               <TextView
+                   android:id="@+id/tn18"
+                   android:layout_width="match_parent"
+                   android:layout_height="0dp"
+                   android:layout_weight="1"
+                   android:paddingLeft="10dp"
+                   android:text="Paneer-65" />
+               <TextView
+                   android:id="@+id/tp18"
+                   android:layout_width="match_parent"
+                   android:layout_height="0dp"
+                   android:layout_weight="1"
+                   android:paddingLeft="10dp"
+                   android:text="Rs. 140"/>
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="33dp"
+               android:layout_height="70dp"
+               android:orientation="horizontal"
+               android:layout_weight="1.89">
+
+
+               <Button
+                   android:id="@+id/binc28"
+                   android:layout_width="35dp"
+                   android:layout_height="35dp"
+                   android:layout_weight="0.02"
+                   android:paddingBottom="2dp"
+                   android:paddingLeft="2dp"
+                   android:paddingRight="2dp"
+                   android:paddingTop="2dp"
+                   android:text="+"
+                   android:textStyle="bold" />
+
+               <LinearLayout
+                   android:layout_width="10dp"
+                   android:layout_height="70dp"
+                   android:layout_weight="0.43"
+                   android:orientation="horizontal">
+
+                   <TextView
+                       android:id="@+id/s8"
+                       android:layout_width="40dp"
+                       android:layout_height="70dp"
+                       android:paddingLeft="15dp"
+                       android:paddingTop="15dp"
+                       android:text="0"/>
+
+               </LinearLayout>
+
+               <Button
+                   android:id="@+id/bdec28"
+                   android:layout_width="35dp"
+                   android:layout_height="35dp"
+                   android:paddingBottom="2dp"
+                   android:paddingLeft="2dp"
+                   android:paddingRight="2dp"
+                   android:paddingTop="2dp"
+                   android:text="-"
+                   android:textStyle="bold"/>
+           </LinearLayout>
+
+       </LinearLayout>
+
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="70dp"
+           android:gravity="center_vertical"
+           android:orientation="horizontal"
+           android:weightSum="5">
+
+           <ImageView
+              android:layout_width="30dp"
+              android:layout_height="match_parent"
+              android:layout_margin="5dp"
+              android:layout_weight="1"
+              android:src="@drawable/baby_corn_manchurian"/>
+
+          <LinearLayout
+              android:layout_width="90dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="2.07"
+              android:orientation="vertical"
+              android:weightSum="2">
+
+              <TextView
+                  android:id="@+id/tn19"
+                  android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="1"
+                  android:paddingLeft="10dp"
+                  android:text="Veg Chilly Fry" />
+              <TextView
+                  android:id="@+id/tp19"
+                  android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="1"
+                  android:paddingLeft="10dp"
+                  android:text="Rs. 110"/>
+
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="33dp"
+              android:layout_height="70dp"
+              android:orientation="horizontal"
+              android:layout_weight="1.89">
+
+
+              <Button
+                  android:id="@+id/binc29"
+                  android:layout_width="35dp"
+                  android:layout_height="35dp"
+                  android:layout_weight="0.02"
+                  android:paddingBottom="2dp"
+                  android:paddingLeft="2dp"
+                  android:paddingRight="2dp"
+                  android:paddingTop="2dp"
+                  android:text="+"
+                  android:textStyle="bold" />
+
+              <LinearLayout
+                  android:layout_width="10dp"
+                  android:layout_height="70dp"
+                  android:layout_weight="0.43"
+                  android:orientation="horizontal">
+
+                  <TextView
+                      android:id="@+id/s9"
+                      android:layout_width="40dp"
+                      android:layout_height="70dp"
+                      android:paddingLeft="15dp"
+                      android:paddingTop="15dp"
+                      android:text="0"/>
+
+              </LinearLayout>
+
+              <Button
+                  android:id="@+id/bdec29"
+                  android:layout_width="35dp"
+                  android:layout_height="35dp"
+                  android:paddingBottom="2dp"
+                  android:paddingLeft="2dp"
+                  android:paddingRight="2dp"
+                  android:paddingTop="2dp"
+                  android:text="-"
+                  android:textStyle="bold"/>
+          </LinearLayout>
+
+      </LinearLayout>
+
+
+
+
+
+
+
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="70dp"
+          android:gravity="center_vertical"
+          android:orientation="horizontal"
+          android:weightSum="5">
+
+          <ImageView
+             android:layout_width="30dp"
+             android:layout_height="match_parent"
+             android:layout_margin="5dp"
+             android:layout_weight="1"
+             android:src="@drawable/mushroom_manchurian"/>
+         <LinearLayout
+             android:layout_width="90dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="2.11"
+             android:orientation="vertical"
+             android:weightSum="2">
+
+             <TextView
+                 android:id="@+id/tn20"
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="1"
+                 android:paddingLeft="10dp"
+                 android:text="Paneer Chilly Fry" />
+             <TextView
+                 android:id="@+id/tp20"
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="1"
+                 android:paddingLeft="10dp"
+                 android:text="Rs. 150"/>
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="33dp"
+             android:layout_height="70dp"
+             android:orientation="horizontal"
+             android:layout_weight="1.89">
+
+
+             <Button
+                 android:id="@+id/binc210"
+                 android:layout_width="35dp"
+                 android:layout_height="35dp"
+                 android:layout_weight="0.02"
+                 android:paddingBottom="2dp"
+                 android:paddingLeft="2dp"
+                 android:paddingRight="2dp"
+                 android:paddingTop="2dp"
+                 android:text="+"
+                 android:textStyle="bold" />
+
+             <LinearLayout
+                 android:layout_width="10dp"
+                 android:layout_height="70dp"
+                 android:layout_weight="0.43"
+                 android:orientation="horizontal">
+
+                 <TextView
+                     android:id="@+id/s10"
+                     android:layout_width="40dp"
+                     android:layout_height="70dp"
+                     android:paddingLeft="15dp"
+                     android:paddingTop="35dp"
+                     android:text="0"/>
+
+             </LinearLayout>
+
+
+             <Button
+                 android:id="@+id/bdec210"
+                 android:layout_width="35dp"
+                 android:layout_height="35dp"
+                 android:paddingBottom="2dp"
+                 android:paddingLeft="2dp"
+                 android:paddingRight="2dp"
+                 android:paddingTop="2dp"
+                 android:text="-"
+                 android:textStyle="bold"/>
+         </LinearLayout>
+
+     </LinearLayout>
+
+
+
+ </LinearLayout>
+
+</ScrollView>
+
+</FrameLayout>
+

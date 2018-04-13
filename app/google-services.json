@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "892856215374",
+    "firebase_url": "https://seawind-15c75.firebaseio.com",
+    "project_id": "seawind-15c75",
+    "storage_bucket": "seawind-15c75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892856215374:android:23fa54d11ec6b8ab",
+        "android_client_info": {
+          "package_name": "com.example.nikita.seawind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892856215374-8p87kou9cac5kfpqcfvvm0ugoc0ae789.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nikita.seawind",
+            "certificate_hash": "f7350cd86645c5d1e920f14c7d2493c07c26ebb4"
+          }
+        },
+        {
+          "client_id": "892856215374-i1gt0vkr12n4m6g038mpb80phqmuqbqc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYhqE1ZB3y4s7-F2YW8-FtCmKnJQAvGmg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "892856215374-i1gt0vkr12n4m6g038mpb80phqmuqbqc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

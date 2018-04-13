@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/back1"
+    android:layout_height="match_parent"
+    tools:context="com.example.nikita.seawind.CustomerLogin">
+
+
+    <EditText
+        android:id="@+id/editTextCustomerName"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="97dp"
+        android:hint="enter your name"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <Button
+        android:id="@+id/startButton"
+
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editTextCustomerName"
+        android:layout_alignRight="@+id/editTextCustomerName"
+        android:layout_below="@+id/tablenumberselect"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="61dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="Start"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <EditText
+        android:id="@+id/tablenumberselect"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextCustomerName"
+        android:layout_alignStart="@+id/editTextCustomerName"
+        android:layout_below="@+id/editTextCustomerName"
+        android:layout_marginTop="79dp"
+        android:editable="false"
+        android:focusable="false"
+        android:hint="Enter table number.."
+        android:onClick="tablenumber"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+</RelativeLayout>

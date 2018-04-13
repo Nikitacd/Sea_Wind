@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/back1"
+    android:layout_height="match_parent"
+    tools:context="com.example.nikita.seawind.StaffLogin">
+
+    <EditText
+        android:id="@+id/editTextStaffLoginUserName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <EditText
+        android:id="@+id/editTextStaffLoginPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextStaffLoginUserName"
+        android:layout_alignStart="@+id/editTextStaffLoginUserName"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <Button
+        android:id="@+id/StartButtonStaff"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextStaffLoginPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="loginstaff"
+        android:text="Login"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="334dp" />
+</RelativeLayout>
